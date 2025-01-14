@@ -1,0 +1,40 @@
+:root {
+    /* colours */
+    --rose-800: #7A284E;
+    --rose-50: #FFF7FB;
+    --stone-900: #312E2C;
+    --stone-600: #5F564D;
+    --stone-150: #E3DDD7;
+    --stone-100: #F3E5D7;
+    --brown-800: #854632;
+    --white: #fff;
+
+    /* typography */
+    --font-size-xxl: 2.5rem;
+    --font-size-xl: 1.75rem;
+    --font-size-lg: 1.25rem;
+    --font-size-regular: 1rem;
+    --line-height-sm: 1;
+    --line-height-lg: 1.5;
+    --letter-spacing: 0;
+    --font-weight-regular: 400;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* spacing */
+    --spacing-1600: 128px;
+    --spacing-600: 48px;
+    --spacing-500: 40px;
+    --spacing-400: 32px;
+    --spacing-300: 24px;
+    --spacing-200: 16px;
+    --spacing-150: 12px;
+    --spacing-100: 8px;
+}
+
+
+
+
+
+
+
