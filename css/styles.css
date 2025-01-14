@@ -12,7 +12,7 @@
     --white: #fff;
 
     /* typography */
-    --font-size-xxl: 2.5rem;
+    --font-size-xxl: 2.25rem;
     --font-size-xl: 1.75rem;
     --font-size-lg: 1.25rem;
     --font-size-regular: 1rem;
@@ -82,7 +82,51 @@ body {
     line-height: var(--line-height-lg);
 }
 
+/* Recipe Styles */
 
+.recipe-container {
+    max-width: 46rem;
+    margin-inline: auto;
+    background-color: var(--white);
+}
+
+.recipe-container > *:not(.recipe-img-wrapper) {
+    padding-inline: var(--spacing-400);
+  }
+
+.recipe-img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.recipe-title {
+    margin-top: var(--spacing-500);
+    font-family: "Young Serif", serif;
+    font-size: var(--font-size-xxl);
+    font-weight: var(--font-weight-regular);
+    line-height: 1;
+    color: var(--stone-900);
+}
+
+/* Larger Screen Styles */
+
+@media (min-width: 48rem) {
+    .recipe-container {
+      margin-top: var(--spacing-1600);
+      border-radius: var(--spacing-300);
+    }
+
+    .recipe-img-wrapper {
+        padding-inline: var(--spacing-400);
+        padding-top: var(--spacing-500);
+    }
+
+    .recipe-img {
+        border-radius: var(--spacing-150);
+    }
+  
+  }
 
 
 
