@@ -1,3 +1,5 @@
+/* Design System */
+
 :root {
     /* colours */
     --rose-800: #7A284E;
@@ -32,6 +34,23 @@
     --spacing-100: 8px;
 }
 
+
+/* Fonts */
+
+@font-face {
+    font-family: "Young Serif";
+    font-style: normal;
+    font-weight: 400;
+    src: url("../assets/fonts/young-serif/young-serif.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url("../assets/fonts/outfit/outfit.woff2") format("woff2");
+    font-weight: 100 900;
+    font-display: swap;
+}
 
 
 
