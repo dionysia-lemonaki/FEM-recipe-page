@@ -87,7 +87,6 @@ body {
 
 .recipe-container {
     max-width: 46rem;
-    margin-inline: auto;
     background-color: var(--white);
     padding-bottom: var(--spacing-400);
 }
@@ -232,6 +231,14 @@ footer a {
 /* Larger Screen Styles */
 
 @media (min-width: 48rem) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
     .recipe-container {
       margin-top: var(--spacing-1600);
       border-radius: var(--spacing-300);
